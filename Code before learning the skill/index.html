@@ -24,7 +24,7 @@
       background-color: #a593c2;
     }
 
-    nav {
+    /* nav {
       height: 60px;
       width: 1000px;
       margin: 0 auto 20px;
@@ -48,7 +48,7 @@
       padding: 16px;
       text-decoration: none;
       font-weight: bold;
-    }
+    } */
 
 /*     #leftmenu {
       float: left;
@@ -78,11 +78,11 @@
 <body>
   <header id="mainheader">
     <nav>
-      <ul>
+      <ul class="list-unstyled d-flex flex-column flex-sm-row">
         <li><img src="images/cake.svg" height="55" /></li>
-        <li><a href="index.html">Home</a></li>
-        <li><a href="pieoverview.html">All pies</a></li>
-        <li><a href="about.html">About</a></li>
+        <li><a href="index.html" class="btn bg-light m-2">Home</a></li>
+        <li><a href="pieoverview.html" class="btn bg-light m-2">All pies</a></li>
+        <li><a href="about.html" class="btn bg-light m-2">About</a></li>
       </ul>
     </nav>
   </header>
@@ -139,14 +139,32 @@
         <section id="promos">
           <h3 style="font-family:verdana;">Our weekly promotions</h3>
           <div class="row">
-            <div class="col-12 col-md-6">
+            <div class="col">
               <h4>Cheese cake</h4>
               $12.95 - serves 4<br>
               <img src="images/products/cheesecakesmall.jpg" alt="Cheese cake with strawberry" class="img-fluid w-100" />
             </div>
-            <div class="col-12 col-md-6">
+            <div class="col">
               <h4>Pumpkin Pie</h4>
               $8.95 - serves 3<br>
+              <img src="images/products/pumpkinpiesmall.jpg" alt="Pumpkin Pie" class="img-fluid w-100" />
+            </div>
+            <div class="w-100 d-md-none"></div>
+            <div class="col">
+              <h4>Cream Pie</h4>
+              $9.95 - serves 3<br>
+              <img src="images/products/pumpkinpiesmall.jpg" alt="Pumpkin Pie" class="img-fluid w-100" />
+            </div>
+            
+            <div class="col">
+              <h4>Cream Pie</h4>
+              $9.95 - serves 3<br>
+              <img src="images/products/pumpkinpiesmall.jpg" alt="Pumpkin Pie" class="img-fluid w-100" />
+            </div>
+            <div class="w-100 d-md-none"></div>
+            <div class="col">
+              <h4>Cream Pie</h4>
+              $9.95 - serves 3<br>
               <img src="images/products/pumpkinpiesmall.jpg" alt="Pumpkin Pie" class="img-fluid w-100" />
             </div>
           </div>
